@@ -1,0 +1,483 @@
+/*
+Kinofest
+=============
+Updated: 10 June 2017
+*/
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  -webkite-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -o-box-sizing:border-box;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{color: #2f2f2f;}
+section{background-color: #fafafa;}
+
+.section-2 h6,  .section-4 h6, .section-5 h6, footer h6, .section-1 h6{
+    color:#242424;
+    font-size: 20px;
+    font-family: 'Pattaya', sans-serif;
+}
+/* --------------------------------------
+   Header
+   -------------------------------------- */
+   
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.16)), url('img/bg2.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    border-top: 3px solid #fe0a09;
+    padding-top: 35px;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+.navbar{
+    border-radius: 0;
+    background-color: rgba(25, 27, 32, 0);
+    min-height: 30px;
+    margin: 18px;
+}
+
+.navbar-nav{
+    display: table;
+    margin: 0 auto;
+    float: none;
+}
+
+.navbar-nav li{
+    color: #fff;
+    margin: 12px 22px;
+}
+
+.navbar-nav li:last-child{border-right: 0;}
+
+.navbar-nav>li>a:visited, .navbar-nav>li>a:link{
+    color: #fff;
+    font-size: 16px;
+    line-height: 5px;
+    padding: 8px;
+    transition: color 0.5s;
+}
+
+.navbar-nav>li>a:hover, .navbar-nav>li>a:active {color:#ba2a21;}
+
+.navbar-nav>.open>a, .navbar-nav>.open>a:active, .navbar-nav>.open>a:hover, .navbar-nav>.open>a:focus {background-color: rgba(25, 27, 32, 0.92);}
+
+
+.logos {text-align: center;}
+
+.logos h1{
+    font-size: 55px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.expo img{height: 120px;}
+
+.eco img{height: 80px;}
+
+.logo img{height: 200px;}
+
+/* --------------------------------------
+   text-box
+   -------------------------------------- */
+
+.text-box{text-align: center;}
+    
+.text-box h1{ 
+    font-size: 32px;
+    margin: 0;
+    font-family: 'Pattaya', sans-serif;
+}
+.text-box p{
+    color: #fff;
+    font-size: 22px;
+    margin: 10px 0 30px;
+}
+.text-box a:visited, .text-box a:link, .send:visited, .send:link{
+    color:#fff;
+    text-decoration: none;
+    border: 2px solid #ba2a21;
+    font-size: 20px;
+    padding: 13px 30px;
+    background-color: #ba2a21;
+    transition: background-color 0.3s;
+}
+
+.text-box a:hover, .text-box a:active, .send:hover, .send:active{background-color:#a52820;}
+/* --------------------------------------
+   Section 1
+   -------------------------------------- */
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-1{
+    margin: 20px 0 70px;
+    position: relative;
+    text-align: center;
+}
+
+.section-1 p{font-size: 17px;}
+ 
+.section-1 h6{
+    font-size: 24px;
+    margin: 30px 0;
+}
+
+.section-1 h1, .section-2 h1, .section-3 h1, .section-4 h1, .section-5 h1, .sponsors h1{
+    text-align: center;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 40px;
+    color:#0a0909;
+    margin-top: 57px;
+}
+.section-2 h1:after, .section-3 h1:after , .section-4 h1:after, .section-5 h1:after, .sponsors h1:after{
+    display: block;
+    height: 2px;
+    background-color:#ba2a22;
+    content: " ";
+    width: 100px;
+    margin: 20px auto 40px;
+}
+
+.s1-bg{
+    position: absolute;
+    height: 100px;
+    left: 120px;
+    top: 48%;
+}
+
+.cat{
+    background-color: rgba(196, 43, 34, 0.9);
+    padding: 20px 0 10px;
+}
+
+.cat p{
+    font-size: 24px;
+    color:#fff;
+}
+
+
+/* --------------------------------------
+   Section 2
+   -------------------------------------- */
+
+.section-2 {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img/bg3.jpg');
+    height: 630px;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-2 h1{ font-size: 35px;}
+
+.section-2 h1:after{margin-bottom: 0;}
+
+.section-2 h1, .section-2 h6, .section-2 p{ color: #fff;}
+
+.info i{
+    color: rgba(191, 36, 27, 0.83);
+    font-size: 45px;
+}
+.section-2 p, .section-4 p, .section-5 p{font-size: 14px;}
+
+
+.step img{
+    height: 100px;
+}
+
+/* --------------------------------------
+   Section 4
+   -------------------------------------- */
+
+.section-4{
+    text-align: center;
+    padding:0 150px;
+}
+.section-4 p{font-size: 15px;}
+
+
+/* --------------------------------------
+   Section 5
+   -------------------------------------- */
+.section-5 {
+    padding-bottom: 50px;
+    background-color:#222222;
+    text-align: center;
+}
+
+.form-group{width: 70%;}
+
+.form-control{border-radius: 0px;}
+
+.right-side{text-align: right;}
+
+.right-side, .left-side{padding: 10px;}
+
+.section-5 h6{margin: 0;}
+
+.left-side-last{margin-bottom: 20px;}
+
+.section-5 h6, .section-5 p{color: #fff;}
+
+.section-5 button{
+    background-color:#ba2a21;
+    border: 1px solid #ba2a21;
+    padding: 10px 20px;
+}
+
+/* --------------------------------------
+   Footer
+   -------------------------------------- */
+
+footer{
+    background-color:#222222;
+    height: 180px;
+    text-align: center;
+    position: relative;
+}
+
+footer img{
+    height: 30px;
+    margin: 0 10px;
+}
+
+footer h2{
+    font-size: 22px;
+    color:#d6d6d6;
+}
+
+footer p{color:#d6d6d6;}
+
+/* --------------------------------------
+   Slider
+   -------------------------------------- */
+
+.full-screen {
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.carousel-inner {
+    height: 450px;
+    width: 80%;
+    margin: 30px auto;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+
+/* Large desktop */
+@media (max-width: 1200px) {
+
+.navbar{padding-left: 30px;}
+    
+}
+
+
+
+/* Large desktop */
+@media (max-width: 992px) {
+
+.navbar{margin: 18px 0;}
+
+.navbar-nav>li>a:visited, .navbar-nav>li>a:link{font-size: 14px;}
+    
+.navbar-nav li { margin: 6px 10px;}
+    
+.text-box h1 {
+    font-size: 40px;
+}
+.text-box {
+    margin-top: 50px;
+}
+.s1-bg1 {
+    display: none;
+}.section-1 p {
+    font-size: 15px;
+}
+    .wrapper {width: 100%;}
+    
+    .section-1{
+        margin: 0;
+    }
+    
+    .section-4{
+        padding: 0 0 30px;
+    }
+}
+
+
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+header{padding-top: 0px}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    width: 100%;
+    padding: 0;
+}
+
+.navbar-responsive-collapse{
+    background-color: rgba(0, 0, 0, 0.79);    
+    margin: -18px -11px 0px 17px;
+    }
+    
+
+.navbar-toggle:hover, .navbar-toggle:focus {background-color: rgba(255, 255, 255, 0.18);}
+    
+.navbar-nav {margin: 0;}
+    
+.navbar-toggle {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.89);
+    border-radius: 2px; 
+}
+.navbar-toggle .icon-bar {
+    background-color: rgba(255, 255, 255, 0.89);;
+}
+    
+
+    .text-box h1 {
+    font-size: 30px;
+}
+    .text-box p {
+    font-size: 18px;
+    margin: 16px 0 24px;
+}
+    
+    .text-box a:visited, .text-box a:link, .send:visited, .send:link {
+    font-size: 15px;
+    padding: 11px 23px;
+}
+    .section-1 h1, .section-2 h1, .section-3 h1, .section-4 h1, .section-5 h1 .sponsors h1 {
+    font-size: 30px;
+    margin-top: 25px;
+}
+    .info i {
+    font-size: 30px;
+}
+    .section-2 p{
+        font-size: 13px;
+        margin: 0;
+    }
+    
+    .section-2 h6{
+        font-size: 14px;
+        margin: 0;
+    }
+    
+    .section-2{
+        height: 670px;
+    }
+    .section-4 p {
+    font-size: 13px;
+    padding: 0 10px;
+}
+    .section-4 h6 {
+    font-size: 17px;
+}
+    
+    .carousel-inner {
+    width: 65%;
+    margin:0 auto;
+}
+    .section-2 h1:after, .section-3 h1:after, .section-4 h1:after, .section-5 h1:after, .sponsors h1:after {
+    width: 69px;
+    margin: 11px auto 20px;
+}
+    
+    .right-side, .left-side{
+    text-align: center;
+}
+    .form-group{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .right-side{
+    padding: 10px 0 0 0;
+}
+}
+
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+    
+	.navbar-toggle {
+    width: 34px;
+    height: 29px;
+    padding: 6px 6px;
+}
+    
+    .text-box h1 {
+    font-size: 24px;
+}
+    .text-box p {
+    font-size: 13px;
+    margin: 0px 0 16px;
+}
+
+    
+    .text-box a:visited, .text-box a:link, .send:visited, .send:link {
+    font-size: 12px;
+    padding: 10px 16px;
+}
+    .button {margin-top: 32px;}
+    
+    .section-1 h1, .section-2 h1, .section-3 h1, .section-4 h1, .section-5 h1, .sponsors h1 { font-size:20px;}
+    
+    .section-1 p {
+    font-size: 13px;
+    padding:10px 10px 20px;
+}
+    .section-2{ height: 760px; }
+    
+    .section-4 h6{font-size: 16px;}
+      
+    .section-4 p {
+    font-size: 13px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+    .carousel-inner{width: 90%;}
+    
+    .form-group{ width: 95%;}
+    
+    .section-5 h6{font-size: 15px;}    
+    .section-5 p{font-size: 12px;}
+    
+    .sponsors {margin-top: -250px;}
+
+    .text-box {margin-top: 85px;}
+}
+
+.sponsors{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.sponsors img{height: 105px;}
+
+.carousel-indicators li{display: none;}
+
+
+
